@@ -1,0 +1,23 @@
+<!-- In the Cart Quantity project, add 2 more buttons '+4' and '+5', which increase the quantity by 4 and 5 when you click them. Try using +=.-->
+<script>
+    let totalQuantity = 0;
+</script>
+<button onClick="
+    console.log(`totalQuantity: ${++totalQuantity}`);">Add to Cart
+</button>
+<button onClick="
+    console.log(`totalQuantity: ${totalQuantity += 2}`);">+2
+</button>
+<button onClick="
+    console.log(`totalQuantity: ${totalQuantity += 3}`);">+3
+</button>
+<button onClick="
+    console.log(`totalQuantity: ${totalQuantity += 4}`);">+4
+</button>
+<button onClick="
+    console.log(`totalQuantity: ${totalQuantity += 5}`);">+5
+</button>
+<button onClick="
+    totalQuantity = 0;
+    console.log(`totalQuantity: 0`);">Reset
+</button>
