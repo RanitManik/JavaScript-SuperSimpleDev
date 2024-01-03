@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>check your age</title>
+</head>
+<body>
+<script>
+    let age = 15;
+    let displayDiscount = "";
+    let isHoliday = true;
+
+    if (!isHoliday && (age <= 6 || age >= 65)) {
+        displayDiscount = "Discount";
+    } else displayDiscount = "No discount";
+
+    console.log(displayDiscount);
+</script>
+</body>
+</html>

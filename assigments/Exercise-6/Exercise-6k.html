@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cartQuantity</title>
+</head>
+<body>
+<script>
+    let totalQuantity = 0;
+</script>
+
+<button onClick="
+    (totalQuantity++ >= 10 ? alert('cart is full!') : console.log(`totalQuantity: ${++totalQuantity}`));">Add to Cart
+</button>
+<button onClick="
+    (totalQuantity + 2 >= 10 ? alert('cart is full!') : console.log(`totalQuantity: ${totalQuantity += 2}`));">+2
+</button>
+<button onClick="
+    (totalQuantity + 3 >= 10 ? alert('cart is full!') : console.log(`totalQuantity: ${totalQuantity += 3}`));">+3
+</button>
+<button onClick="
+    (totalQuantity + 4 >= 10 ? alert('cart is full!') : console.log(`totalQuantity: ${totalQuantity += 4}`));">+4
+</button>
+<button onClick="
+    (totalQuantity + 5 >= 10 ? alert('cart is full!') : console.log(`totalQuantity: ${totalQuantity += 5}`));">+5
+</button>
+<button onClick="
+    (totalQuantity >= 10 ? alert('cart is full!') : console.log(`totalQuantity: ${--totalQuantity}`));">-2
+</button>
+<button onClick="
+    (totalQuantity >= 10 ? alert('cart is full!') : console.log(`totalQuantity: ${totalQuantity -= 3}`));">-3
+</button>
+<button onClick="
+    (totalQuantity >= 10 ? alert('cart is full!') : console.log(`totalQuantity: ${totalQuantity -= 5}`));">-5
+</button>
+<button onClick="
+    totalQuantity = 0;
+    console.log(`totalQuantity: 0`);">Reset
+</button>
+</body>
+</html>

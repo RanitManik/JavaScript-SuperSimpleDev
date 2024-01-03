@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tails or heads</title>
+</head>
+<body>
+<script>
+    computerChoose = "";
+    yourGuess = "tails";
+    winOrLose = "";
+
+    let randomNumber = Math.random();
+    if (randomNumber < 0.5) {
+        computerChoose = "tails";
+    } else computerChoose = "heads";
+
+    if (computerChoose === yourGuess) {
+        winOrLose = "You win!";
+    } else winOrLose = "You lose!";
+
+    console.log(`computer guess ${computerChoose}`);
+    console.log(winOrLose);
+</script>
+</body>
+</html>
