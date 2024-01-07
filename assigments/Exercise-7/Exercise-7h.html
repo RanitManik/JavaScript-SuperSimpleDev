@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cart Quantity Updated</title>
+</head>
+<body>
+<button onclick="showCartQuantity()">Show Quantity</button>
+
+<!-- Add buttons with data attributes for quantity change -->
+<button onclick="handleButtonClick(1)">Add to Cart</button>
+<button onclick="handleButtonClick(2)">+2</button>
+<button onclick="handleButtonClick(3)">+3</button>
+<button onclick="handleButtonClick(4)">+4</button>
+<button onclick="handleButtonClick(5)">+5</button>
+
+<!-- Separate button for removal -->
+<button onclick="handleButtonClick(-1)">Remove from Cart</button>
+<button onclick="handleButtonClick(-2)">-2</button>
+<button onclick="handleButtonClick(-3)">-3</button>
+
+<button onclick="resetCart()">Reset Cart</button>
+
+<script>
+    let cartQuantity = 0;
+
+    // Function to display cart quantity
+    function showCartQuantity() {
+        console.log(`Cart quantity: ${cartQuantity}`);
+    }
+
+    // Function to handle button clicks
+    function handleButtonClick(quantityChange) {
+        if (cartQuantity + quantityChange > 10) {
+            alert('The cart is full');
+        } else if (cartQuantity + quantityChange < 0) {
+            alert('Not enough items in the cart');
+        } else {
+            updateCartQuantity(quantityChange);
+            showCartQuantity(); // Update cart quantity display
+        }
+    }
+
+    // Function to update cart quantity
+    function updateCartQuantity(number) {
+        cartQuantity += number;
+    }
+
+    // Function to reset cart with confirmation
+    function resetCart() {
+        if (confirm('Are you sure you want to reset the cart?')) {
+            cartQuantity = 0;
+            console.log('Cart was reset.');
+            showCartQuantity(); // Update cart quantity display
+        }
+    }
+</script>
+</body>
+</html>

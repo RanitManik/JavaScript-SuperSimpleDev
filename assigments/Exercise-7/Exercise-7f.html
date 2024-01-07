@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temp conversion</title>
+</head>
+<body>
+<script>
+
+    console.log(convertTemp(86, 'F'));
+    console.log(convertTemp(25, 'C'));
+
+    function convertTemp(Temp, unit) {
+        if (unit === 'F') {
+            return `Celsius = ${(Temp - 32) * 5 / 9}`;
+        } else if (unit === 'C') {
+            return `Fahrenheit = ${(Temp * 9) / 5 + 32}`;
+        } else return 'Enter a valid unit "C / F"'
+    }
+</script>
+</body>
+</html>
