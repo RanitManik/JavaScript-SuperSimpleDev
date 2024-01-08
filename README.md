@@ -6,7 +6,7 @@
 
 ---
 
-## Topics
+# Topics
 
  
 - [x] Intro
@@ -26,9 +26,7 @@
 - [x] (Part 2). Advanced Functions
 - [x] Projects and Ending
 
----
-
-## Getting Started
+# Getting Started
 
 _To start your journey in DSA with Ranit, follow these steps:_
 
@@ -58,22 +56,25 @@ _To start your journey in DSA with Ranit, follow these steps:_
 
 <!-- CONTACT -->
 
----
 
-## Resources
+# Resources
 
 * [Tutorial](https://youtu.be/SBmSRK3feww?si=7vk9h56i_-Yn9AWQ)
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * [Webstorm](https://www.jetbrains.com/webstorm/)
 
----
 
-## Contact
+# Contact
 
-- Name - [Ranit Manik](https://github.com/RanitManik)
+- [Email](mailto:ranitmanik.dev@gmail.com)
+- [LinkedIn](https://www.linkedin.com/in/ranit-manik/)
+- [GitHub](https://github.com/RanitManik)
+- [Instagram](https://www.instagram.com/ranit_manik_/)
+- [Facebook](https://www.facebook.com/RanitKumarManik/)
+- [Twitter](https://twitter.com/RANIT_MANIK)
+- [Codepen](https://codepen.io/RANIT-MANIK)
+- [replit](https://replit.com/@ranit-manik)
 
-- Email - ranitmanik.dev@gmail.com
-
-- Repo Link - [https://github.com/JavaScript-SuperSimpleDev.git](https://github.com/RanitManik/JavaScript-SuperSimpleDev.git)
+Happy coding!
 
 
