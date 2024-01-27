@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>objects</title>
+</head>
+<body>
+<script>
+    const products = {
+        product1: {
+            name: 'ball',
+            price: 50,
+        },
+        product2: {
+            name: 'ball',
+            price: 50,
+        },
+        product3: {
+            name: 'Perfume',
+            price: 450,
+        }
+    };
+
+    // Declare variables
+    const product1 = products.product1;
+    const product2 = products.product2;
+    const product3 = products.product3;
+
+    console.log(isSameProduct(product1, product2));
+    console.log(isSameProduct(product1, product3));
+
+    function isSameProduct(product1, product2) {
+        return (product1.name === product2.name) && (product1.price === product2.price);
+    }
+</script>
+</body>
+</html>

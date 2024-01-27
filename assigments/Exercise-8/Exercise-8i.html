@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tails or heads</title>
+</head>
+<body>
+<button onclick="yourChoice('heads');">
+    heads
+</button>
+<button onclick="yourChoice('tails');">
+    tails
+</button>
+<script>
+    let yourGuess = "";
+    let choice = "";
+
+    function yourChoice(choice) {
+        yourGuess = choice;
+        playGame();
+    }
+
+    function playGame() {
+        let computerChoose = "";
+        let winOrLose = "";
+        let randomNumber = Math.random();
+
+        if (randomNumber < 0.5) {
+            computerChoose = "tails";
+        } else computerChoose = "heads";
+
+        computerChoose === yourGuess ? winOrLose = "You win!" : winOrLose = "You lose!";
+
+        console.log(`your guess ${yourGuess}`);
+        console.log(`computer guess ${computerChoose}`);
+        console.log(winOrLose);
+    }
+</script>
+</body>
+</html>

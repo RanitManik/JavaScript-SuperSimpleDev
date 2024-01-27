@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heads or Tails</title>
+</head>
+<body>
+<button onclick="yourChoice('heads');">
+    Heads
+</button>
+<button onclick="yourChoice('tails');">
+    Tails
+</button>
+<button onclick="showScore()">
+    Score
+</button>
+<button onclick="clearScore()">
+    Clear
+</button>
+<script>
+    let score = {
+        win: 0,
+        loose: 0
+    };
+
+    let yourGuess = "";
+    let choice = "";
+
+    if (localStorage.getItem("scoreLocal")) {
+        score = JSON.parse(localStorage.getItem("scoreLocal"));
+    }
+
+    function yourChoice(choice) {
+        yourGuess = choice;
+        playGame();
+    }
+
+    function playGame() {
+
+        let computerChoose = "";
+        let randomNumber = Math.random();
+
+        if (randomNumber < 0.5) {
+            computerChoose = "tails";
+        } else {
+            computerChoose = "heads";
+        }
+
+        computerChoose === yourGuess ? score.win++ : score.loose++;
+        localStorage.setItem("scoreLocal", JSON.stringify(score));
+
+        console.log(`Your guess: ${yourGuess}`);
+        console.log(`Computer's guess: ${computerChoose}`);
+        console.log(`Win: ${score.win}\nLoose: ${score.loose}`);
+    }
+
+    function showScore() {
+        console.log(`Win: ${score.win}    Loose: ${score.loose}`);
+        alert(`Win: ${score.win}    Loose: ${score.loose}`);
+    }
+
+    function clearScore() {
+        localStorage.removeItem("scoreLocal");
+        score.win = 0;
+        score.loose = 0;
+        console.log("Score cleared...");
+        alert("Score cleared...");
+    }
+</script>
+</body>
+</html>

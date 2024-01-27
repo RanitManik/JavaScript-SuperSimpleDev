@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Updated Calculator</title>
+</head>
+
+<body>
+<!-- Buttons for digits and operators -->
+<p>
+    <button onclick="updateCalculation('1');">1</button>
+    <button onclick="updateCalculation('2');">2</button>
+    <button onclick="updateCalculation('3');">3</button>
+    <button onclick="updateCalculation('+');">+</button>
+</p>
+
+<p>
+    <button onclick="updateCalculation('4');">4</button>
+    <button onclick="updateCalculation('5');">5</button>
+    <button onclick="updateCalculation('6');">6</button>
+    <button onclick="updateCalculation('-');">-</button>
+</p>
+
+<p>
+    <button onclick="updateCalculation('7');">7</button>
+    <button onclick="updateCalculation('8');">8</button>
+    <button onclick="updateCalculation('9');">9</button>
+    <button onclick="updateCalculation('*');">*</button>
+</p>
+
+<p>
+    <button onclick="updateCalculation('0');">0</button>
+    <button onclick="updateCalculation('.');">.</button>
+    <button onclick="calculate();">=</button>
+    <button onclick="updateCalculation('/');">/</button>
+</p>
+
+<!-- Clear button -->
+<p>
+    <button onclick="clearCalculation();">Clear</button>
+</p>
+
+<script>
+    // Initialize calculation from local storage or an empty string
+    let calculation = localStorage.getItem("calculation") || '';
+
+    // Function to update local storage with the current calculation
+    function updateLocalStorage() {
+        localStorage.setItem("calculation", calculation);
+    }
+
+    // Function to update the calculation with a given assignment
+    function updateCalculation(assignment) {
+        calculation += assignment;
+        console.log(calculation);
+        updateLocalStorage();
+    }
+
+    // Function to calculate the result and update the calculation
+    function calculate() {
+        calculation = eval(calculation);
+        console.log(calculation);
+        updateLocalStorage();
+    }
+
+    // Function to clear the calculation and update local storage
+    function clearCalculation() {
+        calculation = '';
+        console.log('Cleared...');
+        updateLocalStorage();
+    }
+</script>
+</body>
+
+</html>
