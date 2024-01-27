@@ -1,40 +1,47 @@
-<div align = "center">
-<h1>JavaScript Full course by SuperSimpleDev</h1>
+<div align="center">
+  <h1>JavaScript Full Course by SuperSimpleDev</h1>
 </div>
 
 <img src="https://github.com/RanitManik/JavaScript-SuperSimpleDev/assets/138437760/d2a0d310-f3c8-4dc7-b149-b213bd07960a" alt="Exercise GIF" style="width: 100%;">
 
----
+## Table of Contents
 
-# Topics
+- [Topics](#topics)
+- [Getting Started](#getting-started)
+- [Resources](#resources)
+- [Contact](#contact)
+- [Acknowledgment](#acknowledgment)
 
- 
-- [x] Intro
-- [x] JavaScript Basics
-- [x] Numbers and Math
-- [x] Strings
-- [x] HTML CSS Review, console.log
-- [x] Variables
-- [x] Booleans and If-Statements
-- [x] Functions
-- [x] Objects
-- [x] Document Object Model (DOM)
-- [x] HTML, CSS, and JavaScript Together
-- [x] Arrays and Loops
-- [x] (Part 2). Arrays and Loops
-- [x] Advanced Functions
-- [x] (Part 2). Advanced Functions
-- [x] Projects and Ending
+## Topics
 
-# Getting Started
+| #  | Topic                              |
+|----|------------------------------------|
+| 1  | Intro                              |
+| 2  | JavaScript Basics                  |
+| 3  | Numbers and Math                   |
+| 4  | Strings                            |
+| 5  | HTML CSS Review, console.log       |
+| 6  | Variables                          |
+| 7  | Booleans and If-Statements         |
+| 8  | Functions                          |
+| 9  | Objects                            |
+| 10 | Document Object Model (DOM)        |
+| 11 | HTML, CSS, and JavaScript Together |
+| 12 | Arrays and Loops                   |
+| 13 | (Part 2). Arrays and Loops         |
+| 14 | Advanced Functions                 |
+| 15 | (Part 2). Advanced Functions       |
+| 16 | Projects and Ending                |
 
-_To start your journey in DSA with Ranit, follow these steps:_
+## Getting Started
 
- - **Clone** the repository:
+To start your journey in DSA with Ranit, follow these steps:
 
-   ```bash
-   git clone https://github.com/RanitManik/JavaScript-SuperSimpleDev.git
-   ```
+- **Clone** the repository:
+
+  ```bash
+  git clone https://github.com/RanitManik/JavaScript-SuperSimpleDev.git
+  ```
 
 - **Add This repo as Remote**:
 
@@ -54,27 +61,23 @@ _To start your journey in DSA with Ranit, follow these steps:_
    git push --set-upstream origin DEV/{your_name}/{in which you're working on}
    ```
 
-<!-- CONTACT -->
-
-
-# Resources
+## Resources
 
 * [Tutorial](https://youtu.be/SBmSRK3feww?si=7vk9h56i_-Yn9AWQ)
 * [Visual Studio Code](https://code.visualstudio.com/download)
 * [Webstorm](https://www.jetbrains.com/webstorm/)
 
+## Contact
 
-# Contact
+- [<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" height="20" /> Email](mailto:ranitmanik.dev@gmail.com)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" height="20" /> LinkedIn](https://www.linkedin.com/in/ranit-manik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" height="20" /> Instagram](https://www.instagram.com/ranit_manik_/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" height="20" /> Facebook](https://www.facebook.com/RanitKumarManik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" height="20" /> Twitter](https://twitter.com/RANIT_MANIK)
 
-- [Email](mailto:ranitmanik.dev@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/ranit-manik/)
-- [GitHub](https://github.com/RanitManik)
-- [Instagram](https://www.instagram.com/ranit_manik_/)
-- [Facebook](https://www.facebook.com/RanitKumarManik/)
-- [Twitter](https://twitter.com/RANIT_MANIK)
-- [Codepen](https://codepen.io/RANIT-MANIK)
-- [replit](https://replit.com/@ranit-manik)
+## Acknowledgment
+
+I would like to express my gratitude to everyone who has contributed to the development of this course and the
+associated materials. Special thanks to the SuperSimpleDev community for their support and feedback.
 
 Happy coding!
-
-
