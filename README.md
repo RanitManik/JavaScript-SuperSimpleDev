@@ -14,24 +14,26 @@
 
 ## Topics
 
-| #  | Topic                              |
-|----|------------------------------------|
-| 1  | Intro                              |
-| 2  | JavaScript Basics                  |
-| 3  | Numbers and Math                   |
-| 4  | Strings                            |
-| 5  | HTML CSS Review, console.log       |
-| 6  | Variables                          |
-| 7  | Booleans and If-Statements         |
-| 8  | Functions                          |
-| 9  | Objects                            |
-| 10 | Document Object Model (DOM)        |
-| 11 | HTML, CSS, and JavaScript Together |
-| 12 | Arrays and Loops                   |
-| 13 | (Part 2). Arrays and Loops         |
-| 14 | Advanced Functions                 |
-| 15 | (Part 2). Advanced Functions       |
-| 16 | Projects and Ending                |
+| #  | Topic                              | Brief Description                                    | Status  |
+|----|------------------------------------|-------------------------------------------------------|---------|
+| 1  | Intro                              | Introduction to the course and its objectives.        | Completed |
+| 2  | JavaScript Basics                  | Fundamental concepts and syntax of JavaScript.        | Completed |
+| 3  | Numbers and Math                   | Working with numbers and mathematical operations.    | Completed |
+| 4  | Strings                            | Manipulating and working with text strings.           | Completed |
+| 5  | HTML CSS Review, console.log       | Review of HTML and CSS, introduction to console.log.  | Completed |
+| 6  | Variables                          | Understanding and using variables in JavaScript.     | Completed |
+| 7  | Booleans and If-Statements         | Working with boolean values and conditional statements.| Completed |
+| 8  | Functions                          | Introduction to functions and their usage.           | Completed |
+| 9  | Objects                            | Exploring JavaScript objects and their properties.  | Completed |
+| 10 | Document Object Model (DOM)        | Understanding the DOM and its interaction with HTML. | Completed |
+| 11 | HTML, CSS, and JavaScript Together | Integrating HTML, CSS, and JavaScript in web development.| Completed |
+| 12 | Arrays and Loops                   | Working with arrays and using loop structures.       | Completed |
+| 13 | (Part 2). Arrays and Loops         | Advanced concepts in arrays and loop structures.     | Completed |
+| 14 | Advanced Functions                 | Exploring advanced concepts and techniques in functions.| Completed |
+| 15 | (Part 2). Advanced Functions       | Continuing advanced topics in functions.             | Completed |
+| 16 | Projects and Ending                | Culmination with practical projects and course conclusion.| In Progress |
+
+
 
 ## Getting Started
 
