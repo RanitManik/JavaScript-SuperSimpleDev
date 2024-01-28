@@ -9,6 +9,7 @@ This repository comprehensively composes various web development projects and as
 
 - [Topics](#topics)
 - [Getting Started](#getting-started)
+- [Course Link](#course-link)
 - [Resources](#resources)
 - [Contact](#contact)
 - [Acknowledgment](#acknowledgment)
@@ -65,11 +66,19 @@ To start your journey in Javascript, follow these steps:
    git push --set-upstream origin DEV/{your_name}/{in which you're working on}
    ```
 
+## Course Link
+Explore the video tutorials for this course by SuperSimpleDev on YouTube: 
+* [Tutorial part 1](https://youtu.be/SBmSRK3feww?si=QF2qikn4SLm_I60R)
+* [Tutorial part 2](https://youtu.be/TmcEmsyYKXE?si=iCriZCfe6fVe3vEy)
+* [Tutorial part 3](https://youtu.be/2exKokkn8o0?si=gk8-OCd3JsOOWSqW)
+* [Tutorial part 4](https://youtu.be/Bcz3zVogiI0?si=djpKGz0FGDYy5fVt)
+* [Tutorial part 5](https://youtu.be/_IB1va3E5l0?si=bkJFMpeGHNjBSYOB)
+
+
 ## Resources
 
-* [Tutorial](https://youtu.be/SBmSRK3feww?si=7vk9h56i_-Yn9AWQ)
-* [Visual Studio Code](https://code.visualstudio.com/download)
-* [Webstorm](https://www.jetbrains.com/webstorm/)
+* [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png" height="20" /> Visual Studio Code](https://code.visualstudio.com/download)
+* [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/WebStorm_Icon.svg/1200px-WebStorm_Icon.svg.png" height="20" /> Webstorm](https://www.jetbrains.com/webstorm/)
 
 ## Contact
 
