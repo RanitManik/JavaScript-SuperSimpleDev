@@ -1,8 +1,9 @@
 <div align="center">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1622432919395/OStnZ-nKh.gif" alt="Exercise GIF" style="height: 100px;">
   <h1>JavaScript Full Course by SuperSimpleDev</h1>
 </div>
 
-<img src="https://github.com/RanitManik/JavaScript-SuperSimpleDev/assets/138437760/d2a0d310-f3c8-4dc7-b149-b213bd07960a" alt="Exercise GIF" style="width: 100%;">
+This repository comprehensively composes various web development projects and assignments from the SuperSimpleDev javascript course. It serves as a valuable resource for individuals who are interested in enhancing their skills and knowledge in the field of web development. The course included in this repository covers a wide range of topics, allowing learners to practice and apply their understanding of JavaScript concepts. Whether you are a beginner looking to get started with web development or an experienced developer seeking to expand your skill set, this course offers a wealth of engaging and informative projects that will help you in your journey toward becoming a proficient web developer.
 
 ## Table of Contents
 
@@ -14,31 +15,31 @@
 
 ## Topics
 
-| #  | Topic                              | Brief Description                                    | Status    |
-|----|------------------------------------|-------------------------------------------------------|-----------|
-| 0  | Intro                              | Introduction to the course and its objectives.        | Completed |
-| 1  | JavaScript Basics                  | Fundamental concepts and syntax of JavaScript.        | Completed |
-| 2  | Numbers and Math                   | Working with numbers and mathematical operations.    | Completed |
-| 3  | Strings                            | Manipulating and working with text strings.           | Completed |
-| 4  | HTML CSS Review, console.log       | Review of HTML and CSS, introduction to console.log.  | Completed |
-| 5  | Variables                          | Understanding and using variables in JavaScript.     | Completed |
-| 6  | Booleans and If-Statements         | Working with boolean values and conditional statements.| Completed |
-| 7  | Functions                          | Introduction to functions and their usage.           | Completed |
-| 8  | Objects                            | Exploring JavaScript objects and their properties.  | Completed |
-| 9  | Document Object Model (DOM)        | Understanding the DOM and its interaction with HTML. | Completed |
-| 10 | HTML, CSS, and JavaScript Together | Integrating HTML, CSS, and JavaScript in web development.| Completed |
-| 11 | Arrays and Loops                   | Working with arrays and using loop structures.       | Completed |
-| 12 | (Part 2). Arrays and Loops         | Advanced concepts in arrays and loop structures.     | Completed |
-| 13 | Advanced Functions                 | Exploring advanced concepts and techniques in functions.| Completed |
-| 14 | (Part 2). Advanced Functions       | Continuing advanced topics in functions.             | Completed |
-| 15 | Projects and Ending                | Culmination with practical projects and course conclusion.| In Progress |
+| #   | Topic                              | Brief Description                                          | Status      |
+| --- | ---------------------------------- | ---------------------------------------------------------- | ----------- |
+| 0   | Intro                              | Introduction to the course and its objectives.             | Completed   |
+| 1   | JavaScript Basics                  | Fundamental concepts and syntax of JavaScript.             | Completed   |
+| 2   | Numbers and Math                   | Working with numbers and mathematical operations.          | Completed   |
+| 3   | Strings                            | Manipulating and working with text strings.                | Completed   |
+| 4   | HTML CSS Review, console.log       | Review of HTML and CSS, introduction to console.log.       | Completed   |
+| 5   | Variables                          | Understanding and using variables in JavaScript.           | Completed   |
+| 6   | Booleans and If-Statements         | Working with boolean values and conditional statements.    | Completed   |
+| 7   | Functions                          | Introduction to functions and their usage.                 | Completed   |
+| 8   | Objects                            | Exploring JavaScript objects and their properties.         | Completed   |
+| 9   | Document Object Model (DOM)        | Understanding the DOM and its interaction with HTML.       | Completed   |
+| 10  | HTML, CSS, and JavaScript Together | Integrating HTML, CSS, and JavaScript in web development.  | Completed   |
+| 11  | Arrays and Loops                   | Working with arrays and using loop structures.             | Completed   |
+| 12  | (Part 2). Arrays and Loops         | Advanced concepts in arrays and loop structures.           | Completed   |
+| 13  | Advanced Functions                 | Exploring advanced concepts and techniques in functions.   | Completed   |
+| 14  | (Part 2). Advanced Functions       | Continuing advanced topics in functions.                   | Completed   |
+| 15  | Projects and Ending                | Culmination with practical projects and course conclusion. | In Progress |
 
 
 
 
 ## Getting Started
 
-To start your journey in DSA with Ranit, follow these steps:
+To start your journey in Javascript, follow these steps:
 
 - **Clone** the repository:
 
