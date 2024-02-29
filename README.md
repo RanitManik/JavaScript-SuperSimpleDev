@@ -1,7 +1,10 @@
 <div align="center">
-  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1622432919395/OStnZ-nKh.gif" alt="Exercise GIF" style="height: 100px;">
   <h1>JavaScript Full Course by SuperSimpleDev</h1>
 </div>
+
+![](https://private-user-images.githubusercontent.com/138437760/287531630-d2a0d310-f3c8-4dc7-b149-b213bd07960a.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkyMzY2NjMsIm5iZiI6MTcwOTIzNjM2MywicGF0aCI6Ii8xMzg0Mzc3NjAvMjg3NTMxNjMwLWQyYTBkMzEwLWYzYzgtNGRjNy1iMTQ5LWIyMTNiZDA3OTYwYS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIyOVQxOTUyNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kNjA1MDg5MGU5ZjNlYjJlN2ExMWM3YjQ0OWQ0ZDFiYzkxNDBiZGZkMzIzYTA5Y2ViOTJjZGVkYmUwZDMyZDRlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.FlJOh9aoWCK_tJ_W6iAyLKPJYuz0dW3rq4-0tA9Qofc)
+
+---
 
 This repository comprehensively composes various web development projects and assignments from the SuperSimpleDev javascript course. It serves as a valuable resource for individuals who are interested in enhancing their skills and knowledge in the field of web development. The course included in this repository covers a wide range of topics, allowing learners to practice and apply their understanding of JavaScript concepts. Whether you are a beginner looking to get started with web development or an experienced developer seeking to expand your skill set, this course offers a wealth of engaging and informative projects that will help you in your journey toward becoming a proficient web developer.
 
