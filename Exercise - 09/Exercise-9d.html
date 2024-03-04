@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise-9d</title>
+</head>
+<body>
+<label>
+    <input id="myInput">
+</label>
+<button onclick="showName()">Submit</button>
+<p class="result"></p>
+<script>
+    function showName() {
+        let inputElement = document.getElementById("myInput");
+        let inputValue = inputElement.value;
+        let resultParagraph = document.querySelector(".result");
+        resultParagraph.innerText = "Your Name is: " + inputValue;
+    }
+</script>
+</body>
+</html>

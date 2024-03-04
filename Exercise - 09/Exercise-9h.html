@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise-9h</title>
+</head>
+<body>
+<label>
+    <input placeholder="Type something:" onkeyup="updateText(this.value)">
+</label>
+<p id="displayText"></p>
+<script>
+    function updateText(inputValue) {
+        let displayParagraph = document.getElementById("displayText");
+        displayParagraph.innerText = inputValue;
+    }
+</script>
+</body>
+</html>

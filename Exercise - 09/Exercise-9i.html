@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <title>Cart Quantity updated</title>
+</head>
+<body>
+<button onclick="
+      console.log(`Cart quantity: ${cartQuantity}`);
+    ">Show Quantity
+</button>
+
+<button onclick="
+      if (cartQuantity + 1 > 10) {
+        alert('The cart is full');
+      } else {
+        updateCartQuantity(1);
+      }
+    ">Add to Cart
+</button>
+
+<button onclick="
+      if (cartQuantity + 2 > 10) {
+        alert('The cart is full');
+      } else {
+        updateCartQuantity(2);
+      }
+    ">+2
+</button>
+
+<button onclick="
+      if (cartQuantity + 3 > 10) {
+        alert('The cart is full');
+      } else {
+        updateCartQuantity(3);
+      }
+    ">+3
+</button>
+
+<button onclick="
+      if (cartQuantity + 4 > 10) {
+        alert('The cart is full');
+      } else {
+        updateCartQuantity(4);
+      }
+    ">+4
+</button>
+
+<button onclick="
+      if (cartQuantity + 5 > 10) {
+        alert('The cart is full');
+      } else {
+        updateCartQuantity(5);
+      }
+    ">+5
+</button>
+
+<button onclick="
+      if (cartQuantity - 1 < 0) {
+        alert('Not enough items in the cart');
+      } else {
+        updateCartQuantity(-1);
+      }
+    ">Remove from cart
+</button>
+
+<button onclick="
+      if (cartQuantity - 2 < 0) {
+        alert('Not enough items in the cart');
+      } else {
+        updateCartQuantity(-2);
+      }
+    ">-2
+</button>
+
+<button onclick="
+      if (cartQuantity - 3 < 0) {
+        alert('Not enough items in the cart');
+      } else {
+        updateCartQuantity(-3);
+      }
+    ">-3
+</button>
+<!-- ^^^ This code was changed. ^^^ -->
+
+<button onclick="
+    if (confirm('Are you sure you want to reset the cart?')) {
+        cartQuantity = 0;
+        clearCart(cartQuantity);
+        console.log('Cart was reset.');
+        console.log(`Cart quantity: ${cartQuantity}`);
+        return;
+    }
+">Reset Cart
+</button>
+
+<p id="cartQuantity">
+    Cart Quantity: 0
+</p>
+
+<script>
+    let cartQuantity = 0;
+    TotalcartQuantity = document.getElementById("cartQuantity");
+
+    function updateCartQuantity(number) {
+        cartQuantity += number;
+        TotalcartQuantity.innerText =
+            (`Cart Quantity: ${cartQuantity}`);
+        console.log(`Cart quantity: ${cartQuantity}`);
+    }
+
+    function clearCart(cartQuantity) {
+        TotalcartQuantity.innerText =
+            (`Cart Quantity: ${cartQuantity}`);
+    }
+</script>
+</body>
+</html>

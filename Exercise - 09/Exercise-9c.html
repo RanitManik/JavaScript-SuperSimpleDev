@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise-9c</title>
+</head>
+<body>
+<button onclick="showResult('heads')">heads</button>
+<button onclick="showResult('tails')">tails</button>
+<p class="result-paragraph"></p>
+<script>
+    let result = document.querySelector('.result-paragraph');
+
+    function showResult(choice) {
+        result.innerText = `You choose ${choice}`;
+    }
+</script>
+</body>
+</html>
