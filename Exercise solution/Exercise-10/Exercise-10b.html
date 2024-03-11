@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Uber buttons</title>
+    <style>
+        body {
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            align-content: center;
+        }
+
+        div {
+            display: flex;
+            gap: 1rem;
+        }
+
+        button {
+            padding: .5rem 1rem;
+            border: none;
+            border-radius: 0.3rem;
+            cursor: pointer;
+        }
+
+        button:nth-child(1) {
+            background-color: black;
+            color: white;
+        }
+
+        button:nth-child(1):hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        button:nth-child(2) {
+            background-color: rgb(230, 230, 230);
+            color: black;
+        }
+
+        button:nth-child(2):hover {
+            background-color: rgb(200, 200, 200);
+        }
+    </style>
+</head>
+<body>
+<div>
+    <button>Request now</button>
+    <button>Schedule for later</button>
+</div>
+</body>
+</html>

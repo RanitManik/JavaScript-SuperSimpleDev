@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ClassList.contains</title>
+</head>
+<body>
+<button class="btn-red no-border" style="background-color: red; border: none; padding: 10rem; color:white">
+    Hello i am a button
+</button>
+<script>
+    let btn = document.querySelector('button')
+    console.log(btn.classList.contains('btn-red')) // true
+    console.log(btn.classList.contains('no-border')) // true
+    console.log(btn.classList.contains('green-red')) // false
+</script>
+</body>
+</html>

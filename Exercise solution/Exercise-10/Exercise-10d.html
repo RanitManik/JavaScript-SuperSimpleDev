@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button switch</title>
+    <style>
+        body {
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            align-content: center;
+        }
+
+        button {
+            padding: .5rem 1rem;
+            border: none;
+            border-radius: 0.3rem;
+            cursor: pointer;
+            background-color: rgb(230, 230, 230);
+            color: black;
+        }
+
+        .btn-on {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+<button>
+    Gaming
+</button>
+
+<script>
+    let btn = document.querySelector("button");
+    btn.addEventListener('click', function onButton() {
+        if (!btn.classList.contains('btn-on')) {
+            btn.classList.add('btn-on');
+        } else btn.classList.remove('btn-on');
+    });
+
+</script>
+</body>
+</html>
