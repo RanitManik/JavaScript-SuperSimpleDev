@@ -1,0 +1,27 @@
+<!doctype html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let a1 = [-2, 3, -4, 5];
+    let a2 = [6, -7, 8, 9];
+
+    function addOne(array1, array2) {
+        let array3 = [];
+        for (let i = 0; i < array1.length; i++) {
+            array3[i] = array1[i] + array2[i];
+        }
+        return array3;
+    }
+
+    let a3 = addOne(a1, a2);
+    console.log(a3);
+</script>
+</body>
+</html>

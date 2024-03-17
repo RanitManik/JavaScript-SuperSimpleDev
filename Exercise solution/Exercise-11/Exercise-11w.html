@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    const a1 = ['apple', 'grape', "search", 'apple'];
+    const a2 = ['not', 'found'];
+
+    function findIndex(array, word) {
+        for (let i = 0; i < array.length; i++) {
+            if (array[i] === word) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    function unique(array) {
+        const uniqueArray = [];
+        for (let i = 0; i < array.length; i++) {
+            const index = findIndex(uniqueArray, array[i]);
+            if (index === -1) {
+                uniqueArray.push(array[i]);
+            }
+        }
+        return uniqueArray;
+    }
+
+    console.log(unique(['green', 'red', 'blue', 'red']));
+    console.log(unique(['red', 'green', 'green', 'red']));
+</script>
+</body>
+</html>

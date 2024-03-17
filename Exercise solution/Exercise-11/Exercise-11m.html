@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    const a1 = [5, -5, 4, -7, 81, 8, -4, 10];
+
+    function minMax(array) {
+        let minIndex = 0;
+        let maxIndex = 0;
+
+        if (array.length === 0) {
+            return {min: null, max: null};
+        }
+
+        for (let i = 0; i < array.length; i++) {
+            if (array[minIndex] > array[i]) {
+                minIndex = i;
+            }
+            if (array[maxIndex] < array[i]) {
+                maxIndex = i;
+            }
+        }
+        return {min: array[minIndex], max: array[maxIndex]};
+    }
+
+    console.log(minMax(a1));
+</script>
+</body>
+</html>
