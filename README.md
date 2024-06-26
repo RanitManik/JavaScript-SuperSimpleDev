@@ -35,7 +35,7 @@ This repository comprehensively composes various web development projects and as
 | 12  | (Part 2). Arrays and Loops         | Advanced concepts in arrays and loop structures.           | Completed   |
 | 13  | Advanced Functions                 | Exploring advanced concepts and techniques in functions.   | Completed   |
 | 14  | (Part 2). Advanced Functions       | Continuing advanced topics in functions.                   | Completed   |
-| 15  | Projects and Ending                | Culmination with practical projects and course conclusion. | In Progress |
+| 15  | Projects and Ending                | Culmination with practical projects and course conclusion. | Completed   |
 
 
 
